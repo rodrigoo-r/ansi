@@ -8,9 +8,9 @@
  * under certain conditions; type `show c' for details.
 */
 
-#ifndef ANSI_LIBRARY_H
-#define ANSI_LIBRARY_H
+#ifndef FLUENT_LIBC_ANSI_LIBRARY_H
+#define FLUENT_LIBC_ANSI_LIBRARY_H
 
 void hello(void);
 
-#endif //ANSI_LIBRARY_H
+#endif //FLUENT_LIBC_ANSI_LIBRARY_H
