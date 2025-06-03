@@ -36,6 +36,12 @@
 //
 // No external dependencies.
 
+// ============= FLUENT LIB C++ =============
+#if defined(__cplusplus)
+extern "C"
+{
+#endif
+
 #    define ANSI_RESET "\033[0m"
 #    define ANSI_BLACK "\033[30m"
 #    define ANSI_RED "\033[31m"
@@ -59,5 +65,10 @@
 #    define ANSI_BOLD_BRIGHT_RED "\033[1;91m"
 #    define ANSI_BOLD_BRIGHT_YELLOW "\033[1;93m"
 #    define ANSI_BOLD_BRIGHT_PURPLE "\033[1;95m"
+
+// ============= FLUENT LIB C++ =============
+#if defined(__cplusplus)
+}
+#endif
 
 #endif //FLUENT_LIBC_ANSI_LIBRARY_H
