@@ -3,4 +3,4 @@ project(ansi C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(ansi STATIC ansi.c)
+add_library(ansi STATIC ansi.c ansi.h)
